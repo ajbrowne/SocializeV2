@@ -2,7 +2,14 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets" />
+        <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets" >
+            <file
+                name="fonts/roboto-light.ttf"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/roboto-light.ttf" />
+            <file
+                name="fonts/Pacifico.ttf"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/Pacifico.ttf" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/debug/assets" />

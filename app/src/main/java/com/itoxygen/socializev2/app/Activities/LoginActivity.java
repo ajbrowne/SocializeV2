@@ -1,17 +1,30 @@
-package com.itoxygen.socializev2;
+package com.itoxygen.socializev2.app.Activities;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.itoxygen.socializev2.app.Models.User;
+import com.itoxygen.socializev2.app.R;
+import com.itoxygen.socializev2.app.Fragments.LoginFragment;
 
-public class LoginActivity extends Activity {
+
+public class LoginActivity extends BaseActivity {
+
+    private User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        user = new User();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        LoginFragment fragment = new LoginFragment();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.loginContainer, fragment, "initial");
+        fragmentTransaction.commit();
     }
 
 
@@ -33,4 +46,8 @@ public class LoginActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public User getUser(){return user;}
+
+    public void register(){}
 }
