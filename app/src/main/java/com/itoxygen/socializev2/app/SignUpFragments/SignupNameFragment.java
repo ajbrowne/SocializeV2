@@ -44,7 +44,6 @@ public class SignupNameFragment extends Fragment {
 
         nextListener(next);
         signInListener(signIn);
-
         return view;
     }
 

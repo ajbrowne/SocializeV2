@@ -60,10 +60,45 @@
                 qualifiers="" >
 
                 <style
+                    name="RobotoButtonStyle"
+                    parent="android:Widget.Holo.Button" >
+                    <item name="android:fontFamily">
+sans-serif-light
+                    </item>
+                </style>
+
+                <style
                     name="AppTheme"
                     parent="android:Theme.Holo.Light.DarkActionBar" >
+                    <item name="android:textViewStyle">
+@style/RobotoTextViewStyle
+                    </item>
+                    <item name="android:buttonStyle">
+@style/RobotoButtonStyle
+                    </item>
+                    <item name="android:actionBarStyle">
+@style/MyActionBar
+                    </item>
+                    <item name="android:actionBarTabTextStyle">
+            @android:style/Widget.Holo.Light.ActionBar.TabText
+                    </item>
+                    <item name="android:windowContentOverlay">
+@null
+                    </item>
+                    <item name="android:actionBarDivider">
+@null
+                    </item>
+                    <item name="android:actionBarWidgetTheme">
+@android:style/Theme.Holo.Light.DarkActionBar
+                    </item>
+                </style>
 
-                    <!-- Customize your theme here. -->
+                <style
+                    name="RobotoTextViewStyle"
+                    parent="android:Widget.TextView" >
+                    <item name="android:fontFamily">
+sans-serif-light
+                    </item>
                 </style>
             </file>
             <file
@@ -147,6 +182,29 @@
                 path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_in_right.xml"
                 qualifiers=""
                 type="anim" />
+            <file
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/themes.xml"
+                qualifiers="" >
+
+                <style
+                    name="NewStyleThing"
+                    parent="android:TextAppearance.DeviceDefault.Widget.ActionBar.Title" >
+                    <item name="android:textColor">
+#ffffff
+                    </item>
+                </style>
+
+                <style
+                    name="MyActionBar"
+                    parent="@android:style/Widget.Holo.ActionBar" >
+                    <item name="android:background">
+#00559A
+                    </item>
+                    <item name="android:titleTextStyle">
+@style/NewStyleThing
+                    </item>
+                </style>
+            </file>
         </source>
         <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/generated/res/rs/debug" />
         <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/generated/res/generated/debug" />
