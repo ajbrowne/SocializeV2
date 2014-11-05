@@ -30,6 +30,10 @@
             android:name="com.itoxygen.socializev2.app.Activities.BaseActivity"
             android:label="@string/title_activity_base" >
         </activity>
+        <activity
+            android:name="com.itoxygen.socializev2.app.Activities.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
     </application>
 
 </manifest>

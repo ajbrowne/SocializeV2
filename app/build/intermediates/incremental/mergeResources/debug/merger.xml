@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
+    <dataSet config="1.0.0" >
+        <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/res" />
+    </dataSet>
     <dataSet config="main" >
         <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res" >
+            <file
+                name="slide_in_left"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_in_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_in_right"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_in_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_left"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_out_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_right"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_out_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="custom_button"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/custom_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_confirm"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_confirm.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_corners"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_corners.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_corners_pressed"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_corners_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_input"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_input.xml"
+                qualifiers=""
+                type="drawable" />
             <file
                 name="ic_launcher"
                 path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable-hdpi/ic_launcher.png"
@@ -24,10 +72,50 @@
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
+                name="activity_base"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/activity_base.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_home"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/activity_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_login"
                 path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/activity_login.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="fragment_login"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_signup_email"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_email.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_signup_name"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_name.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_signup_password"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_password.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="base"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/menu/base.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="home"
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/menu/home.xml"
+                qualifiers=""
+                type="menu" />
             <file
                 name="login"
                 path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/menu/login.xml"
@@ -53,6 +141,8 @@
                 <string name="app_name" >SocializeV2
                 </string>
                 <string name="title_activity_base" >BaseActivity
+                </string>
+                <string name="title_activity_home" >HomeActivity
                 </string>
             </file>
             <file
@@ -102,87 +192,6 @@ sans-serif-light
                 </style>
             </file>
             <file
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values-w820dp/dimens.xml"
-                qualifiers="w820dp-v13" >
-                <dimen name="activity_horizontal_margin" >64dp
-                </dimen>
-            </file>
-            <file
-                name="base"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/menu/base.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="rounded_corners"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_corners.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="activity_base"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/activity_base.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="custom_button"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/custom_button.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="rounded_corners_pressed"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_corners_pressed.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="fragment_login"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_login.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="rounded_input"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_input.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="fragment_signup_email"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_email.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="slide_out_right"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_out_right.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="slide_in_left"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_in_left.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="slide_out_left"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_out_left.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="rounded_confirm"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/drawable/rounded_confirm.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="fragment_signup_password"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_password.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_signup_name"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_name.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="slide_in_right"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/anim/slide_in_right.xml"
-                qualifiers=""
-                type="anim" />
-            <file
                 path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/themes.xml"
                 qualifiers="" >
 
@@ -204,6 +213,12 @@ sans-serif-light
 @style/NewStyleThing
                     </item>
                 </style>
+            </file>
+            <file
+                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
             </file>
         </source>
         <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/generated/res/rs/debug" />

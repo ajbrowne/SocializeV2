@@ -1,5 +1,6 @@
 package com.itoxygen.socializev2.app.Activities;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -63,26 +64,31 @@ public class LoginActivity extends BaseActivity {
 
     public User getUser(){return user;}
 
-    public void register(){
+    public void register(final String email, final String password){
         RequestQueue queue = Volley.newRequestQueue(this);
-        StringRequest sr = new StringRequest(Request.Method.POST,"http://141.219.159.113:8080/api/users", new Response.Listener<String>() {
+        StringRequest sr = new StringRequest(Request.Method.POST,"http://141.219.159.47:8080/api/users", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                System.out.println(response);
+                System.out.println("Success");
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                System.out.println(error);
             }
         }){
             @Override
             protected Map<String,String> getParams(){
-                params.put("username",user.getEmail());
-                params.put("password",user.getPassword());
+                String source="admin"+":"+"adminpassword";
+                String base64EncodedCredentials = Base64.encodeToString(source.getBytes(), Base64.NO_WRAP);
+
                 params.put(
-                        "Authorization",
-                        String.format("Basic %s", Base64.encodeToString(
-                                String.format("%s:%s", "admin", "adminpassword").getBytes(), Base64.DEFAULT)));
+                        "Authorization", "Basic " +
+                                base64EncodedCredentials);
+                params.put("username",email);
+                params.put("password",password);
                 return params;
             }
 
