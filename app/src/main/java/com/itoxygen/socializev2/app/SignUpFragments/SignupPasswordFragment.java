@@ -71,7 +71,7 @@ public class SignupPasswordFragment extends Fragment {
                     new CustomAlertDialog(getActivity(), "Password of length zero", "Passwords of length zero are not allowed.").show();
                 } else {
                     ((LoginActivity) getActivity()).getUser().setPassword(userPassword);
-                    ((LoginActivity) getActivity()).register(email, userPassword); // Async call to register
+                    ((LoginActivity) getActivity()).register(email, userPassword, first, last); // Async call to register
                 }
             }
         });

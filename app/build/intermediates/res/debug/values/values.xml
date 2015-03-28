@@ -1,52 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
+<resources xmlns:ns1="http://schemas.android.com/apk/res/android">
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="years">
+        <item>2014</item>
+        <item>2015</item>
+    </string-array>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+    <color name="transparent_black">#7F000000</color>
+    <color name="white">#ffffffff</color>
     <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="ampm_left_padding">6dip</dimen>
+    <dimen name="date_picker_component_width">270dip</dimen>
+    <dimen name="date_picker_header_height">30dip</dimen>
+    <dimen name="date_picker_header_text_size">14dip</dimen>
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+    <dimen name="day_number_select_circle_radius">16dip</dimen>
+    <dimen name="day_number_size">16sp</dimen>
+    <dimen name="done_label_size">14sp</dimen>
+    <dimen name="extra_time_label_margin">-30dp</dimen>
+    <dimen name="header_height">96dip</dimen>
+    <dimen name="minimum_margin_sides">48dip</dimen>
+    <dimen name="minimum_margin_top_bottom">24dip</dimen>
+    <dimen name="month_day_label_text_size">10sp</dimen>
+    <dimen name="month_label_size">16sp</dimen>
+    <dimen name="month_list_item_header_height">50dip</dimen>
+    <dimen name="month_select_circle_radius">45dip</dimen>
+    <dimen name="picker_dimen">270dip</dimen>
+    <dimen name="selected_calendar_layout_height">155dip</dimen>
+    <dimen name="selected_date_day_size">75dip</dimen>
+    <dimen name="selected_date_month_size">30dip</dimen>
+    <dimen name="selected_date_year_size">30dip</dimen>
+    <dimen name="separator_padding">4dip</dimen>
+    <dimen name="time_label_size">60sp</dimen>
+    <dimen name="year_label_height">64dip</dimen>
+    <dimen name="year_label_text_size">22dip</dimen>
+    <item name="animator" type="id">false</item>
+    <item name="date_picker_day" type="id">false</item>
+    <item name="date_picker_header" type="id">false</item>
+    <item name="date_picker_month" type="id">false</item>
+    <item name="date_picker_month_and_day" type="id">false</item>
+    <item name="date_picker_year" type="id">false</item>
+    <item name="day_picker_selected_date_layout" type="id">false</item>
+    <item name="done" type="id">false</item>
+    <item name="month_text_view" type="id">false</item>
     <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="action_settings">Settings</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <item format="float" name="ampm_circle_radius_multiplier" type="string">0.19</item>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="app_name">SocializeV2</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <item format="float" name="circle_radius_multiplier" type="string">0.82</item>
+    <item format="float" name="circle_radius_multiplier_24HourMode" type="string">0.85</item>
+    <string name="day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="day_picker_description">Month grid of days</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="day_prompt">Day</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <string name="deleted_key"><ns1:g example="4" id="key">%1$s</ns1:g> deleted</string>
+    <string name="done_label">Done</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hour_picker_description">Hours circular slider</string>
+    <string name="item_is_selected">%1$s selected</string>
+    <string name="minute_picker_description">Minutes circular slider</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="month_prompt">Month</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <item format="float" name="numbers_radius_multiplier_inner" type="string">0.60</item>
+    <item format="float" name="numbers_radius_multiplier_normal" type="string">0.81</item>
+    <item format="float" name="numbers_radius_multiplier_outer" type="string">0.83</item>
+    <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="select_day">Select month and day</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="select_year">Select year</string>
+    <item format="float" name="selection_radius_multiplier" type="string">0.16</item>
+    <item format="float" name="text_size_multiplier_inner" type="string">0.14</item>
+    <item format="float" name="text_size_multiplier_normal" type="string">0.17</item>
+    <item format="float" name="text_size_multiplier_outer" type="string">0.11</item>
+    <string name="time_placeholder" translatable="false">--</string>
+    <string name="time_separator" translatable="false">:</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_home">HomeActivity</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <string name="year_picker_description">Year list</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="year_prompt">Year</string>
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
     <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/styles.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
-        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
         <item name="android:actionBarStyle">@style/MyActionBar</item>
-        <item name="android:actionBarTabTextStyle">            @android:style/Widget.Holo.Light.ActionBar.TabText</item>
+        <item name="android:actionBarTabTextStyle">
+            @android:style/Widget.Holo.Light.ActionBar.TabText
+        </item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarDivider">@null</item>
-        <item name="android:actionBarWidgetTheme">@android:style/Theme.Holo.Light.DarkActionBar</item>
+        <item name="android:actionBarWidgetTheme">@android:style/Theme.Holo.Light.DarkActionBar
+        </item>
     </style>
     <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/themes.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
-        <item name="android:background">#00559A</item>
+        <item name="android:background">#1abc9c</item>
         <item name="android:titleTextStyle">@style/NewStyleThing</item>
     </style>
-
     <style name="NewStyleThing" parent="android:TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textColor">#ffffff</item>
     </style>
     <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/values/styles.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
-
     <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
-
+    <!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="ampm_label">
+        <item name="android:textSize">@dimen/ampm_label_size</item>
+        <item name="android:textColor">@color/ampm_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="day_of_week_label_condensed"/>
+    <style name="time_label">
+        <item name="android:textSize">@dimen/time_label_size</item>
+        <item name="android:textColor">@color/numbers_text_color</item>
+    </style>
 </resources>

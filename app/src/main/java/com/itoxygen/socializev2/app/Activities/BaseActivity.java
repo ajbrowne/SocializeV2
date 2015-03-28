@@ -1,11 +1,13 @@
 package com.itoxygen.socializev2.app.Activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.itoxygen.socializev2.app.R;
+import com.parse.ParseUser;
 
 public class BaseActivity extends FragmentActivity {
 
@@ -35,6 +37,11 @@ public class BaseActivity extends FragmentActivity {
         int id = item.getItemId();
         if (id == R.id.action_settings) {
             return true;
+        }
+        if (id == R.id.action_logout){
+            ParseUser.logOut();
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

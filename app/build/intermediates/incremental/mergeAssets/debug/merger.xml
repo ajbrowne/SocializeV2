@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="2" >
-
-    <dataSet config="main" >
-        <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets" >
-            <file
-                name="fonts/roboto-light.ttf"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/roboto-light.ttf" />
-            <file
-                name="fonts/Pacifico.ttf"
-                path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/Pacifico.ttf" />
-        </source>
-    </dataSet>
-    <dataSet config="debug" >
-        <source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/debug/assets" />
-    </dataSet>
-
-</merger>
+<merger version="3"><dataSet config="0.0.2"><source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/assets"/></dataSet><dataSet config="1.0.0"><source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/assets"/></dataSet><dataSet config="main"><source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets"><file name="fonts/Pacifico.ttf" path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/Pacifico.ttf"/><file name="fonts/roboto-light.ttf" path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/assets/fonts/roboto-light.ttf"/></source></dataSet><dataSet config="debug"><source path="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/debug/assets"/></dataSet></merger>

@@ -1,32 +1,18 @@
 package com.itoxygen.socializev2.app.Fragments;
 
-
-
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.itoxygen.socializev2.app.Activities.HomeActivity;
 import com.itoxygen.socializev2.app.Activities.LoginActivity;
 import com.itoxygen.socializev2.app.R;
 import com.itoxygen.socializev2.app.SignUpFragments.SignupNameFragment;
-
-import org.w3c.dom.Text;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -56,9 +42,7 @@ public class LoginFragment extends Fragment {
         View loginView = inflater.inflate(R.layout.fragment_login, container, false);
         login  = (Button) loginView.findViewById(R.id.loginButton);
         emailText = (TextView) loginView.findViewById(R.id.email);
-        email = emailText.getText().toString();
         passwordText = (TextView) loginView.findViewById(R.id.password);
-        password = passwordText.getText().toString();
         params = new HashMap<String, String>();
         TextView loginTitle = (TextView) loginView.findViewById(R.id.login_title);
         Button signUp = (Button) loginView.findViewById(R.id.signUpButton);
@@ -80,7 +64,9 @@ public class LoginFragment extends Fragment {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((LoginActivity) getActivity()).register(email, password);
+                email = emailText.getText().toString();
+                password = passwordText.getText().toString();
+                ((LoginActivity) getActivity()).login(email, password);
             }
         });
 

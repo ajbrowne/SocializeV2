@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1abc9c"
+    tools:context=".Fragments.BlankFragment">
+
+    <TextView
+        android:id="@+id/flow3_title"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="95dp"
+        android:text="Enter Your Email Address"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flow3_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flow3_title"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:text="This will be used as your login and method of being invited."
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/flow3_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flow3_info"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_input"
+        android:fontFamily="sans-serif-light"
+        android:hint="yourname@example.com"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/flow3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flow3_email"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif-light"
+        android:text="Continue"
+        android:textColor="#1abc9c" />
+
+    <TextView
+        android:id="@+id/flow3_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
+<!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/fragment_signup_email.xml -->
