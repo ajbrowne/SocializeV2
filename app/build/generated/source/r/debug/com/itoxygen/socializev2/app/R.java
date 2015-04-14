@@ -15,200 +15,1107 @@ public final class R {
         public static final int slide_out_right=0x7f040003;
     }
     public static final class array {
-        public static final int days=0x7f050000;
-        public static final int months=0x7f050001;
-        public static final int years=0x7f050002;
+        public static final int days=0x7f060000;
+        public static final int friends=0x7f060001;
+        public static final int months=0x7f060002;
+        public static final int years=0x7f060003;
     }
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f010001;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f010002;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010003;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int appTheme=0x7f010032;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonAppearance=0x7f010039;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonHeight=0x7f010036;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
+<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
+<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
+<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonText=0x7f010038;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonWidth=0x7f010037;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010009;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f01000a;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f01000b;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f01000c;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f01000d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int card_header_layout_resourceID=0x7f010044;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int card_layout_resourceID=0x7f010042;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int card_list_item_dividerHeight=0x7f010041;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int card_shadow_layout_resourceID=0x7f010043;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int card_thumbnail_layout_resourceID=0x7f010045;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f010007;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>production</code></td><td>1</td><td></td></tr>
+<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
+<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int environment=0x7f010033;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
+<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int fragmentMode=0x7f010035;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fragmentStyle=0x7f010034;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010006;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f010005;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int list_card_layout_resourceID=0x7f010046;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int liteMode=0x7f01000e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010008;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int maskedWalletDetailsBackground=0x7f01003c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int maskedWalletDetailsButtonBackground=0x7f01003e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int maskedWalletDetailsButtonTextAppearance=0x7f01003d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01003b;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int maskedWalletDetailsLogoImageType=0x7f010040;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maskedWalletDetailsLogoTextColor=0x7f01003f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int maskedWalletDetailsTextAppearance=0x7f01003a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrHeaderBackground=0x7f010018;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int ptrHeaderHeight=0x7f010019;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrHeaderStyle=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrHeaderTitleTextAppearance=0x7f01001a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrProgressBarColor=0x7f01001b;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int ptrProgressBarHeight=0x7f01001d;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>inside</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
+</table>
+         */
+        public static final int ptrProgressBarStyle=0x7f01001c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int ptrPullText=0x7f01001e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int ptrRefreshingText=0x7f01001f;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int ptrReleaseText=0x7f010020;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrSmoothProgressBarStyle=0x7f010021;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int ptrViewDelegateClass=0x7f010022;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spbStyle=0x7f010023;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spb_background=0x7f010030;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_color=0x7f010024;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spb_colors=0x7f01002e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_generate_background_with_colors=0x7f010031;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
+<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
+<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
+<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int spb_interpolator=0x7f01002b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_mirror_mode=0x7f01002d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStart_activated=0x7f01002f;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStart_speed=0x7f010029;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStop_speed=0x7f01002a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_reversed=0x7f01002c;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_sections_count=0x7f010027;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_speed=0x7f010028;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_stroke_separator_length=0x7f010026;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_stroke_width=0x7f010025;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiMapToolbar=0x7f010017;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f010010;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f010011;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f010012;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f010013;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f010014;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f010015;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int windowTransitionStyle=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010016;
+    }
+    public static final class bool {
+        public static final int spb_default_mirror_mode=0x7f070000;
+        public static final int spb_default_progressiveStart_activated=0x7f070001;
+        public static final int spb_default_reversed=0x7f070002;
     }
     public static final class color {
-        public static final int ampm_text_color=0x7f060000;
-        public static final int blue=0x7f060001;
-        public static final int calendar_header=0x7f060002;
-        public static final int circle_background=0x7f060003;
-        public static final int darker_blue=0x7f060004;
-        public static final int date_picker_selector=0x7f06000d;
-        public static final int date_picker_text_normal=0x7f060005;
-        public static final int date_picker_view_animator=0x7f060006;
-        public static final int date_picker_year_selector=0x7f06000e;
-        public static final int done_text_color=0x7f06000f;
-        public static final int done_text_color_disabled=0x7f060007;
-        public static final int done_text_color_normal=0x7f060008;
-        public static final int line_background=0x7f060009;
-        public static final int numbers_text_color=0x7f06000a;
-        public static final int transparent_black=0x7f06000b;
-        public static final int white=0x7f06000c;
+        public static final int ampm_text_color=0x7f080000;
+        public static final int blue=0x7f080001;
+        public static final int calendar_header=0x7f080002;
+        public static final int card_activated=0x7f080003;
+        public static final int card_activated_kitkat=0x7f080004;
+        public static final int card_background=0x7f080005;
+        public static final int card_backgroundExpand=0x7f080006;
+        public static final int card_background_header=0x7f080007;
+        public static final int card_base_cardwithlist_background_list_color=0x7f080008;
+        public static final int card_base_cardwithlist_divider_color=0x7f080009;
+        public static final int card_expand_title_color=0x7f08000a;
+        public static final int card_pressed=0x7f08000b;
+        public static final int card_pressed_kitkat=0x7f08000c;
+        public static final int card_text_color_header=0x7f08000d;
+        public static final int circle_background=0x7f08000e;
+        public static final int common_action_bar_splitter=0x7f08000f;
+        public static final int common_signin_btn_dark_text_default=0x7f080010;
+        public static final int common_signin_btn_dark_text_disabled=0x7f080011;
+        public static final int common_signin_btn_dark_text_focused=0x7f080012;
+        public static final int common_signin_btn_dark_text_pressed=0x7f080013;
+        public static final int common_signin_btn_default_background=0x7f080014;
+        public static final int common_signin_btn_light_text_default=0x7f080015;
+        public static final int common_signin_btn_light_text_disabled=0x7f080016;
+        public static final int common_signin_btn_light_text_focused=0x7f080017;
+        public static final int common_signin_btn_light_text_pressed=0x7f080018;
+        public static final int common_signin_btn_text_dark=0x7f080031;
+        public static final int common_signin_btn_text_light=0x7f080032;
+        public static final int darker_blue=0x7f080019;
+        public static final int date_picker_selector=0x7f080033;
+        public static final int date_picker_text_normal=0x7f08001a;
+        public static final int date_picker_view_animator=0x7f08001b;
+        public static final int date_picker_year_selector=0x7f080034;
+        public static final int default_progress_bar_color=0x7f08001c;
+        public static final int done_text_color=0x7f080035;
+        public static final int done_text_color_disabled=0x7f08001d;
+        public static final int done_text_color_normal=0x7f08001e;
+        public static final int line_background=0x7f08001f;
+        public static final int numbers_text_color=0x7f080020;
+        public static final int spb_default_color=0x7f080021;
+        public static final int transparent_black=0x7f080022;
+        public static final int wallet_bright_foreground_disabled_holo_light=0x7f080023;
+        public static final int wallet_bright_foreground_holo_dark=0x7f080024;
+        public static final int wallet_bright_foreground_holo_light=0x7f080025;
+        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f080026;
+        public static final int wallet_dim_foreground_holo_dark=0x7f080027;
+        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f080028;
+        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f080029;
+        public static final int wallet_highlighted_text_holo_dark=0x7f08002a;
+        public static final int wallet_highlighted_text_holo_light=0x7f08002b;
+        public static final int wallet_hint_foreground_holo_dark=0x7f08002c;
+        public static final int wallet_hint_foreground_holo_light=0x7f08002d;
+        public static final int wallet_holo_blue_light=0x7f08002e;
+        public static final int wallet_link_text_light=0x7f08002f;
+        public static final int wallet_primary_text_holo_light=0x7f080036;
+        public static final int wallet_secondary_text_holo_dark=0x7f080037;
+        public static final int white=0x7f080030;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f070000;
-        public static final int activity_vertical_margin=0x7f070001;
-        public static final int ampm_label_size=0x7f070002;
-        public static final int ampm_left_padding=0x7f070003;
-        public static final int date_picker_component_width=0x7f070004;
-        public static final int date_picker_header_height=0x7f070005;
-        public static final int date_picker_header_text_size=0x7f070006;
-        public static final int date_picker_view_animator_height=0x7f070007;
-        public static final int day_number_select_circle_radius=0x7f070008;
-        public static final int day_number_size=0x7f070009;
-        public static final int dialog_height=0x7f07001c;
-        public static final int done_label_size=0x7f07000a;
-        public static final int extra_time_label_margin=0x7f07000b;
-        public static final int footer_height=0x7f07001e;
-        public static final int header_height=0x7f07000c;
-        public static final int left_side_width=0x7f07001d;
-        public static final int minimum_margin_sides=0x7f07000d;
-        public static final int minimum_margin_top_bottom=0x7f07000e;
-        public static final int month_day_label_text_size=0x7f07000f;
-        public static final int month_label_size=0x7f070010;
-        public static final int month_list_item_header_height=0x7f070011;
-        public static final int month_list_item_padding=0x7f07001f;
-        public static final int month_list_item_size=0x7f070020;
-        public static final int month_select_circle_radius=0x7f070012;
-        public static final int picker_dimen=0x7f070013;
-        public static final int selected_calendar_layout_height=0x7f070014;
-        public static final int selected_date_day_size=0x7f070015;
-        public static final int selected_date_month_size=0x7f070016;
-        public static final int selected_date_year_size=0x7f070017;
-        public static final int separator_padding=0x7f070018;
-        public static final int time_label_right_padding=0x7f070021;
-        public static final int time_label_size=0x7f070019;
-        public static final int year_label_height=0x7f07001a;
-        public static final int year_label_text_size=0x7f07001b;
+        public static final int activity_horizontal_margin=0x7f0a0000;
+        public static final int activity_vertical_margin=0x7f0a0001;
+        public static final int ampm_label_size=0x7f0a0002;
+        public static final int ampm_left_padding=0x7f0a0003;
+        public static final int card_background_default_radius=0x7f0a0004;
+        public static final int card_base_cardwithlist_dividerHeight=0x7f0a0005;
+        public static final int card_base_cardwithlist_layout_leftmargin=0x7f0a0006;
+        public static final int card_base_cardwithlist_layout_rightmargin=0x7f0a0007;
+        public static final int card_base_cardwithlist_list_margin_left=0x7f0a0008;
+        public static final int card_base_cardwithlist_list_margin_top=0x7f0a0009;
+        public static final int card_base_empty_height=0x7f0a000a;
+        public static final int card_content_outer_view_margin_bottom=0x7f0a000b;
+        public static final int card_content_outer_view_margin_left=0x7f0a000c;
+        public static final int card_content_outer_view_margin_right=0x7f0a000d;
+        public static final int card_content_outer_view_margin_top=0x7f0a000e;
+        public static final int card_expand_layout_padding=0x7f0a000f;
+        public static final int card_expand_simple_title_paddingLeft=0x7f0a0010;
+        public static final int card_expand_simple_title_paddingRight=0x7f0a0011;
+        public static final int card_expand_simple_title_text_size=0x7f0a0012;
+        public static final int card_header_button_margin_right=0x7f0a0013;
+        public static final int card_header_button_overflow_margin_right=0x7f0a0014;
+        public static final int card_header_button_padding_bottom=0x7f0a0015;
+        public static final int card_header_button_padding_left=0x7f0a0016;
+        public static final int card_header_button_padding_right=0x7f0a0017;
+        public static final int card_header_button_padding_top=0x7f0a0018;
+        public static final int card_header_outer_view_margin_bottom=0x7f0a0019;
+        public static final int card_header_outer_view_margin_left=0x7f0a001a;
+        public static final int card_header_outer_view_margin_right=0x7f0a001b;
+        public static final int card_header_outer_view_margin_top=0x7f0a001c;
+        public static final int card_header_simple_title_margin_bottom=0x7f0a001d;
+        public static final int card_header_simple_title_margin_left=0x7f0a001e;
+        public static final int card_header_simple_title_margin_right=0x7f0a001f;
+        public static final int card_header_simple_title_margin_top=0x7f0a0020;
+        public static final int card_header_simple_title_text_size=0x7f0a0021;
+        public static final int card_main_layout_view_margin_bottom=0x7f0a0022;
+        public static final int card_main_layout_view_margin_left=0x7f0a0023;
+        public static final int card_main_layout_view_margin_right=0x7f0a0024;
+        public static final int card_main_layout_view_margin_top=0x7f0a0025;
+        public static final int card_main_simple_title_margin_left=0x7f0a0026;
+        public static final int card_main_simple_title_margin_top=0x7f0a0027;
+        public static final int card_shadow_height=0x7f0a0028;
+        public static final int card_shadow_view_margin_bottom=0x7f0a0029;
+        public static final int card_shadow_view_margin_left=0x7f0a002a;
+        public static final int card_shadow_view_margin_right=0x7f0a002b;
+        public static final int card_shadow_view_margin_top=0x7f0a002c;
+        public static final int card_thumbnail_height=0x7f0a002d;
+        public static final int card_thumbnail_width=0x7f0a002e;
+        public static final int date_picker_component_width=0x7f0a002f;
+        public static final int date_picker_header_height=0x7f0a0030;
+        public static final int date_picker_header_text_size=0x7f0a0031;
+        public static final int date_picker_view_animator_height=0x7f0a0032;
+        public static final int day_number_select_circle_radius=0x7f0a0033;
+        public static final int day_number_size=0x7f0a0034;
+        public static final int dialog_height=0x7f0a0052;
+        public static final int done_label_size=0x7f0a0035;
+        public static final int extra_time_label_margin=0x7f0a0036;
+        public static final int footer_height=0x7f0a0054;
+        public static final int grid_card_padding_bottom=0x7f0a0037;
+        public static final int grid_card_padding_left=0x7f0a0038;
+        public static final int grid_card_padding_right=0x7f0a0039;
+        public static final int grid_card_padding_top=0x7f0a003a;
+        public static final int header_height=0x7f0a003b;
+        public static final int left_side_width=0x7f0a0053;
+        public static final int list_card_padding_bottom=0x7f0a003c;
+        public static final int list_card_padding_left=0x7f0a003d;
+        public static final int list_card_padding_right=0x7f0a003e;
+        public static final int list_card_padding_top=0x7f0a003f;
+        public static final int minimum_margin_sides=0x7f0a0040;
+        public static final int minimum_margin_top_bottom=0x7f0a0041;
+        public static final int month_day_label_text_size=0x7f0a0042;
+        public static final int month_label_size=0x7f0a0043;
+        public static final int month_list_item_header_height=0x7f0a0044;
+        public static final int month_list_item_padding=0x7f0a0055;
+        public static final int month_list_item_size=0x7f0a0056;
+        public static final int month_select_circle_radius=0x7f0a0045;
+        public static final int picker_dimen=0x7f0a0046;
+        public static final int ptr_progress_bar_stroke_width=0x7f0a0047;
+        public static final int selected_calendar_layout_height=0x7f0a0048;
+        public static final int selected_date_day_size=0x7f0a0049;
+        public static final int selected_date_month_size=0x7f0a004a;
+        public static final int selected_date_year_size=0x7f0a004b;
+        public static final int separator_padding=0x7f0a004c;
+        public static final int spb_default_stroke_separator_length=0x7f0a004d;
+        public static final int spb_default_stroke_width=0x7f0a004e;
+        public static final int time_label_right_padding=0x7f0a0057;
+        public static final int time_label_size=0x7f0a004f;
+        public static final int year_label_height=0x7f0a0050;
+        public static final int year_label_text_size=0x7f0a0051;
     }
     public static final class drawable {
-        public static final int custom_butto=0x7f020000;
-        public static final int custom_button=0x7f020001;
-        public static final int ic_action_new=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int rounded_confirm=0x7f020004;
-        public static final int rounded_corners=0x7f020005;
-        public static final int rounded_corners_pressed=0x7f020006;
-        public static final int rounded_filled=0x7f020007;
-        public static final int rounded_input=0x7f020008;
-        public static final int rounded_input2=0x7f020009;
+        public static final int activated_background_card=0x7f020000;
+        public static final int activated_background_kitkat_card=0x7f020001;
+        public static final int card_background=0x7f020002;
+        public static final int card_foreground_kitkat_selector=0x7f020003;
+        public static final int card_foreground_selector=0x7f020004;
+        public static final int card_kitkat_selector=0x7f020005;
+        public static final int card_menu_button_expand=0x7f020006;
+        public static final int card_menu_button_overflow=0x7f020007;
+        public static final int card_menu_button_rounded_overflow=0x7f020008;
+        public static final int card_multichoice_selector=0x7f020009;
+        public static final int card_selector=0x7f02000a;
+        public static final int card_shadow=0x7f02000b;
+        public static final int card_undo=0x7f02000c;
+        public static final int common_full_open_on_phone=0x7f02000d;
+        public static final int common_ic_googleplayservices=0x7f02000e;
+        public static final int common_signin_btn_icon_dark=0x7f02000f;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020010;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020011;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020012;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020013;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020014;
+        public static final int common_signin_btn_icon_focus_light=0x7f020015;
+        public static final int common_signin_btn_icon_light=0x7f020016;
+        public static final int common_signin_btn_icon_normal_dark=0x7f020017;
+        public static final int common_signin_btn_icon_normal_light=0x7f020018;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f020019;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02001a;
+        public static final int common_signin_btn_text_dark=0x7f02001b;
+        public static final int common_signin_btn_text_disabled_dark=0x7f02001c;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f02001d;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f02001e;
+        public static final int common_signin_btn_text_disabled_light=0x7f02001f;
+        public static final int common_signin_btn_text_focus_dark=0x7f020020;
+        public static final int common_signin_btn_text_focus_light=0x7f020021;
+        public static final int common_signin_btn_text_light=0x7f020022;
+        public static final int common_signin_btn_text_normal_dark=0x7f020023;
+        public static final int common_signin_btn_text_normal_light=0x7f020024;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020025;
+        public static final int common_signin_btn_text_pressed_light=0x7f020026;
+        public static final int custom_butto=0x7f020027;
+        public static final int custom_button=0x7f020028;
+        public static final int ic_action_accept=0x7f020029;
+        public static final int ic_action_cancel=0x7f02002a;
+        public static final int ic_action_new=0x7f02002b;
+        public static final int ic_launcher=0x7f02002c;
+        public static final int ic_menu_expand_card_dark_normal=0x7f02002d;
+        public static final int ic_menu_expand_card_dark_pressed=0x7f02002e;
+        public static final int ic_menu_overflow_card_dark_normal=0x7f02002f;
+        public static final int ic_menu_overflow_card_dark_pressed=0x7f020030;
+        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020031;
+        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020032;
+        public static final int ic_plusone_medium_off_client=0x7f020033;
+        public static final int ic_plusone_small_off_client=0x7f020034;
+        public static final int ic_plusone_standard_off_client=0x7f020035;
+        public static final int ic_plusone_tall_off_client=0x7f020036;
+        public static final int ic_undobar_undo=0x7f020037;
+        public static final int logo=0x7f020038;
+        public static final int meetup=0x7f020039;
+        public static final int powered_by_google_dark=0x7f02003a;
+        public static final int powered_by_google_light=0x7f02003b;
+        public static final int pressed_background_card=0x7f02003c;
+        public static final int pressed_background_kitkat_card=0x7f02003d;
+        public static final int rounded_confirm=0x7f02003e;
+        public static final int rounded_corners=0x7f02003f;
+        public static final int rounded_corners_pressed=0x7f020040;
+        public static final int rounded_filled=0x7f020041;
+        public static final int rounded_input=0x7f020042;
+        public static final int rounded_input2=0x7f020043;
+        public static final int undobar=0x7f020044;
+        public static final int undobar_button_focused=0x7f020045;
+        public static final int undobar_button_pressed=0x7f020046;
+        public static final int undobar_divider=0x7f020047;
+        public static final int white=0x7f020048;
     }
     public static final class id {
-        public static final int action_logout=0x7f08003a;
-        public static final int action_new=0x7f08003b;
-        public static final int action_settings=0x7f080039;
-        public static final int ampm_hitspace=0x7f080034;
-        public static final int ampm_label=0x7f080035;
-        public static final int animator=0x7f080000;
-        public static final int center_view=0x7f08002e;
-        public static final int createButton=0x7f080016;
-        public static final int dateButton=0x7f08000f;
-        public static final int dateLayout=0x7f08000e;
-        public static final int date_picker_day=0x7f080001;
-        public static final int date_picker_header=0x7f080002;
-        public static final int date_picker_month=0x7f080003;
-        public static final int date_picker_month_and_day=0x7f080004;
-        public static final int date_picker_year=0x7f080005;
-        public static final int day_picker_selected_date_layout=0x7f080006;
-        public static final int done=0x7f080007;
-        public static final int done_button=0x7f080038;
-        public static final int email=0x7f080017;
-        public static final int eventDate=0x7f080010;
-        public static final int eventName=0x7f08000c;
-        public static final int eventTime=0x7f080013;
-        public static final int event_title=0x7f08000b;
-        public static final int flow2_button=0x7f080026;
-        public static final int flow2_first=0x7f080024;
-        public static final int flow2_info=0x7f080022;
-        public static final int flow2_last=0x7f080025;
-        public static final int flow2_signin=0x7f080027;
-        public static final int flow2_title=0x7f080021;
-        public static final int flow3_button=0x7f08001f;
-        public static final int flow3_email=0x7f08001e;
-        public static final int flow3_info=0x7f08001d;
-        public static final int flow3_signin=0x7f080020;
-        public static final int flow3_title=0x7f08001c;
-        public static final int flow4_button=0x7f08002c;
-        public static final int flow4_info=0x7f080029;
-        public static final int flow4_password=0x7f08002a;
-        public static final int flow4_signin=0x7f08002d;
-        public static final int flow4_title=0x7f080028;
-        public static final int flow4_verify=0x7f08002b;
-        public static final int hour_space=0x7f08002f;
-        public static final int hours=0x7f080031;
-        public static final int inviteeOne=0x7f080014;
-        public static final int inviteeTwo=0x7f080015;
-        public static final int linear=0x7f080023;
-        public static final int loginButton=0x7f08001a;
-        public static final int loginContainer=0x7f08000a;
-        public static final int login_title=0x7f080018;
-        public static final int minutes=0x7f080033;
-        public static final int minutes_space=0x7f080032;
-        public static final int month_text_view=0x7f080008;
-        public static final int newEventContainer=0x7f080009;
-        public static final int password=0x7f080019;
-        public static final int pickThingsLayout=0x7f08000d;
-        public static final int separator=0x7f080030;
-        public static final int signUpButton=0x7f08001b;
-        public static final int timeButton=0x7f080012;
-        public static final int timeLayout=0x7f080011;
-        public static final int time_picker=0x7f080037;
-        public static final int time_picker_dialog=0x7f080036;
+        public static final int acceptButton=0x7f090057;
+        public static final int action_logout=0x7f09009d;
+        public static final int action_new=0x7f09009e;
+        public static final int action_settings=0x7f09009c;
+        public static final int activityHeader=0x7f09002b;
+        public static final int addFriends=0x7f090068;
+        public static final int address=0x7f09003d;
+        public static final int addressLabel=0x7f09003c;
+        public static final int addressResult=0x7f09003b;
+        public static final int adjust_height=0x7f090003;
+        public static final int adjust_width=0x7f090002;
+        public static final int ampm_hitspace=0x7f090097;
+        public static final int ampm_label=0x7f090098;
+        public static final int animator=0x7f09001e;
+        public static final int book_now=0x7f090019;
+        public static final int buyButton=0x7f090013;
+        public static final int buy_now=0x7f090018;
+        public static final int buy_with_google=0x7f090017;
+        public static final int cancelButton=0x7f090058;
+        public static final int card_base_empty_cardwithlist_text=0x7f090049;
+        public static final int card_children_simple_title=0x7f090046;
+        public static final int card_content_expand_layout=0x7f09004e;
+        public static final int card_expand_inner_simple_title=0x7f090087;
+        public static final int card_header_button_expand=0x7f090044;
+        public static final int card_header_button_frame=0x7f090042;
+        public static final int card_header_button_other=0x7f090045;
+        public static final int card_header_button_overflow=0x7f090043;
+        public static final int card_header_inner_frame=0x7f090041;
+        public static final int card_header_inner_simple_title=0x7f090088;
+        public static final int card_header_layout=0x7f09004d;
+        public static final int card_inner_base_empty_cardwithlist=0x7f09008b;
+        public static final int card_inner_base_main_cardwithlist=0x7f09008a;
+        public static final int card_inner_base_progressbar_cardwithlist=0x7f09008c;
+        public static final int card_main_content_layout=0x7f09004a;
+        public static final int card_main_inner_simple_title=0x7f090089;
+        public static final int card_main_layout=0x7f09004c;
+        public static final int card_overlap=0x7f09004f;
+        public static final int card_shadow_layout=0x7f09004b;
+        public static final int card_shadow_view=0x7f090047;
+        public static final int card_thumb_and_content_layout=0x7f090050;
+        public static final int card_thumbnail_image=0x7f090048;
+        public static final int card_thumbnail_layout=0x7f090051;
+        public static final int carddemo_extra_ptr_layout=0x7f09006e;
+        public static final int center_view=0x7f090091;
+        public static final int classic=0x7f09001b;
+        public static final int container=0x7f09006c;
+        public static final int createButton=0x7f090069;
+        public static final int date=0x7f090031;
+        public static final int dateButton=0x7f090063;
+        public static final int dateLabel=0x7f090030;
+        public static final int dateLayout=0x7f090062;
+        public static final int dateResult=0x7f09002f;
+        public static final int date_picker_day=0x7f09001f;
+        public static final int date_picker_header=0x7f090020;
+        public static final int date_picker_month=0x7f090021;
+        public static final int date_picker_month_and_day=0x7f090022;
+        public static final int date_picker_year=0x7f090023;
+        public static final int day_picker_selected_date_layout=0x7f090024;
+        public static final int donate_with_google=0x7f09001a;
+        public static final int done=0x7f090025;
+        public static final int done_button=0x7f09009b;
+        public static final int email=0x7f090070;
+        public static final int event=0x7f09002e;
+        public static final int eventAddress=0x7f090060;
+        public static final int eventCardAddress=0x7f09005b;
+        public static final int eventCardBruh=0x7f090055;
+        public static final int eventCardDate=0x7f09005c;
+        public static final int eventCardLocation=0x7f09005a;
+        public static final int eventCardTime=0x7f090059;
+        public static final int eventCardTitle=0x7f090056;
+        public static final int eventDate=0x7f090064;
+        public static final int eventLabel=0x7f09002d;
+        public static final int eventList=0x7f09006f;
+        public static final int eventLocation=0x7f09005f;
+        public static final int eventName=0x7f09005e;
+        public static final int eventResult=0x7f09002c;
+        public static final int eventTime=0x7f090067;
+        public static final int event_title=0x7f09005d;
+        public static final int flow2_button=0x7f09007f;
+        public static final int flow2_first=0x7f09007d;
+        public static final int flow2_info=0x7f09007b;
+        public static final int flow2_last=0x7f09007e;
+        public static final int flow2_signin=0x7f090080;
+        public static final int flow2_title=0x7f09007a;
+        public static final int flow3_button=0x7f090078;
+        public static final int flow3_email=0x7f090077;
+        public static final int flow3_info=0x7f090076;
+        public static final int flow3_signin=0x7f090079;
+        public static final int flow3_title=0x7f090075;
+        public static final int flow4_button=0x7f090085;
+        public static final int flow4_info=0x7f090082;
+        public static final int flow4_password=0x7f090083;
+        public static final int flow4_signin=0x7f090086;
+        public static final int flow4_title=0x7f090081;
+        public static final int flow4_verify=0x7f090084;
+        public static final int friendButton=0x7f09006b;
+        public static final int friend_search_listview=0x7f09006a;
+        public static final int grayscale=0x7f09001c;
+        public static final int holo_dark=0x7f09000e;
+        public static final int holo_light=0x7f09000f;
+        public static final int hour_space=0x7f090092;
+        public static final int hours=0x7f090094;
+        public static final int hybrid=0x7f090007;
+        public static final int inside=0x7f090008;
+        public static final int inv=0x7f090037;
+        public static final int invLabel=0x7f090036;
+        public static final int inviteeResult=0x7f090035;
+        public static final int linear=0x7f09007c;
+        public static final int list_cardId=0x7f09008d;
+        public static final int list_card_undobar=0x7f09008e;
+        public static final int list_card_undobar_button=0x7f090090;
+        public static final int list_card_undobar_message=0x7f09008f;
+        public static final int locLabel=0x7f090039;
+        public static final int location=0x7f09003a;
+        public static final int locationResult=0x7f090038;
+        public static final int loginButton=0x7f090073;
+        public static final int loginContainer=0x7f090040;
+        public static final int login_title=0x7f090071;
+        public static final int map=0x7f09003e;
+        public static final int match_parent=0x7f090015;
+        public static final int minutes=0x7f090096;
+        public static final int minutes_space=0x7f090095;
+        public static final int monochrome=0x7f09001d;
+        public static final int month_text_view=0x7f090026;
+        public static final int newDetailContainer=0x7f09002a;
+        public static final int newEventContainer=0x7f09003f;
+        public static final int noMatches=0x7f09006d;
+        public static final int none=0x7f090001;
+        public static final int normal=0x7f090004;
+        public static final int outside=0x7f090009;
+        public static final int password=0x7f090072;
+        public static final int pickThingsLayout=0x7f090061;
+        public static final int production=0x7f090010;
+        public static final int ptr_content=0x7f090027;
+        public static final int ptr_progress=0x7f090028;
+        public static final int ptr_text=0x7f090029;
+        public static final int sandbox=0x7f090011;
+        public static final int satellite=0x7f090005;
+        public static final int selectionDetails=0x7f090014;
+        public static final int separator=0x7f090093;
+        public static final int signUpButton=0x7f090074;
+        public static final int slide=0x7f090000;
+        public static final int spb_interpolator_accelerate=0x7f09000a;
+        public static final int spb_interpolator_acceleratedecelerate=0x7f09000c;
+        public static final int spb_interpolator_decelerate=0x7f09000d;
+        public static final int spb_interpolator_linear=0x7f09000b;
+        public static final int strict_sandbox=0x7f090012;
+        public static final int terrain=0x7f090006;
+        public static final int time=0x7f090034;
+        public static final int timeButton=0x7f090066;
+        public static final int timeLabel=0x7f090033;
+        public static final int timeLayout=0x7f090065;
+        public static final int timeResult=0x7f090032;
+        public static final int time_picker=0x7f09009a;
+        public static final int time_picker_dialog=0x7f090099;
+        public static final int undobar=0x7f090052;
+        public static final int undobar_button=0x7f090054;
+        public static final int undobar_message=0x7f090053;
+        public static final int wrap_content=0x7f090016;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f0b0000;
+        public static final int list_card_undobar_hide_delay=0x7f0b0001;
+        public static final int spb_default_interpolator=0x7f0b0002;
+        public static final int spb_default_sections_count=0x7f0b0003;
     }
     public static final class layout {
         public static final int activity_base=0x7f030000;
-        public static final int activity_home=0x7f030001;
-        public static final int activity_login=0x7f030002;
-        public static final int date_picker_dialog=0x7f030003;
-        public static final int date_picker_done_button=0x7f030004;
-        public static final int date_picker_header_view=0x7f030005;
-        public static final int date_picker_selected_date=0x7f030006;
-        public static final int date_picker_view_animator=0x7f030007;
-        public static final int fragment_event=0x7f030008;
-        public static final int fragment_home=0x7f030009;
-        public static final int fragment_login=0x7f03000a;
-        public static final int fragment_signup_email=0x7f03000b;
-        public static final int fragment_signup_name=0x7f03000c;
-        public static final int fragment_signup_password=0x7f03000d;
-        public static final int time_header_label=0x7f03000e;
-        public static final int time_picker_dialog=0x7f03000f;
-        public static final int year_label_text_view=0x7f030010;
+        public static final int activity_event_detail=0x7f030001;
+        public static final int activity_home=0x7f030002;
+        public static final int activity_login=0x7f030003;
+        public static final int base_header_layout=0x7f030004;
+        public static final int base_list_expandable_children_layout=0x7f030005;
+        public static final int base_shadow_layout=0x7f030006;
+        public static final int base_thumbnail_layout=0x7f030007;
+        public static final int base_withlist_empty=0x7f030008;
+        public static final int base_withlist_progress=0x7f030009;
+        public static final int card_base_layout=0x7f03000a;
+        public static final int card_layout=0x7f03000b;
+        public static final int card_overlay_layout=0x7f03000c;
+        public static final int card_thumbnail_layout=0x7f03000d;
+        public static final int card_thumbnail_overlay_layout=0x7f03000e;
+        public static final int card_undo_layout=0x7f03000f;
+        public static final int custom_item=0x7f030010;
+        public static final int date_picker_dialog=0x7f030011;
+        public static final int date_picker_done_button=0x7f030012;
+        public static final int date_picker_header_view=0x7f030013;
+        public static final int date_picker_selected_date=0x7f030014;
+        public static final int date_picker_view_animator=0x7f030015;
+        public static final int default_header=0x7f030016;
+        public static final int event_card=0x7f030017;
+        public static final int fragment_event=0x7f030018;
+        public static final int fragment_friend=0x7f030019;
+        public static final int fragment_home=0x7f03001a;
+        public static final int fragment_login=0x7f03001b;
+        public static final int fragment_signup_email=0x7f03001c;
+        public static final int fragment_signup_name=0x7f03001d;
+        public static final int fragment_signup_password=0x7f03001e;
+        public static final int inner_base_expand=0x7f03001f;
+        public static final int inner_base_header=0x7f030020;
+        public static final int inner_base_main=0x7f030021;
+        public static final int inner_base_main_cardwithlist=0x7f030022;
+        public static final int list_card_layout=0x7f030023;
+        public static final int list_card_thumbnail_layout=0x7f030024;
+        public static final int list_card_undo_message=0x7f030025;
+        public static final int time_header_label=0x7f030026;
+        public static final int time_picker_dialog=0x7f030027;
+        public static final int year_label_text_view=0x7f030028;
     }
     public static final class menu {
-        public static final int base=0x7f0b0000;
-        public static final int home=0x7f0b0001;
-        public static final int login=0x7f0b0002;
+        public static final int base=0x7f0f0000;
+        public static final int home=0x7f0f0001;
+        public static final int login=0x7f0f0002;
+        public static final int menu_event_detail=0x7f0f0003;
+        public static final int menu_test=0x7f0f0004;
+    }
+    public static final class plurals {
+        public static final int card_selected_items=0x7f0c0000;
+        public static final int list_card_undo_items=0x7f0c0001;
+    }
+    public static final class raw {
+        public static final int gtm_analytics=0x7f050000;
     }
     public static final class string {
-        public static final int action_settings=0x7f090000;
-        public static final int ampm_circle_radius_multiplier=0x7f090001;
-        public static final int app_name=0x7f090002;
-        public static final int circle_radius_multiplier=0x7f090003;
-        public static final int circle_radius_multiplier_24HourMode=0x7f090004;
-        public static final int day_of_week_label_typeface=0x7f090005;
-        public static final int day_picker_description=0x7f090006;
-        public static final int day_prompt=0x7f090007;
-        public static final int deleted_key=0x7f090008;
-        public static final int done_label=0x7f090009;
-        public static final int hello_blank_fragment=0x7f09000a;
-        public static final int hello_world=0x7f09000b;
-        public static final int hour_picker_description=0x7f09000c;
-        public static final int item_is_selected=0x7f09000d;
-        public static final int minute_picker_description=0x7f09000e;
-        public static final int month_prompt=0x7f09000f;
-        public static final int numbers_radius_multiplier_inner=0x7f090010;
-        public static final int numbers_radius_multiplier_normal=0x7f090011;
-        public static final int numbers_radius_multiplier_outer=0x7f090012;
-        public static final int radial_numbers_typeface=0x7f090013;
-        public static final int sans_serif=0x7f090014;
-        public static final int select_day=0x7f090015;
-        public static final int select_hours=0x7f090016;
-        public static final int select_minutes=0x7f090017;
-        public static final int select_year=0x7f090018;
-        public static final int selection_radius_multiplier=0x7f090019;
-        public static final int text_size_multiplier_inner=0x7f09001a;
-        public static final int text_size_multiplier_normal=0x7f09001b;
-        public static final int text_size_multiplier_outer=0x7f09001c;
-        public static final int time_placeholder=0x7f09001d;
-        public static final int time_separator=0x7f09001e;
-        public static final int title_activity_base=0x7f09001f;
-        public static final int title_activity_home=0x7f090020;
-        public static final int year_picker_description=0x7f090021;
-        public static final int year_prompt=0x7f090022;
+        public static final int accept=0x7f0d0000;
+        public static final int action_settings=0x7f0d0001;
+        public static final int ampm_circle_radius_multiplier=0x7f0d0002;
+        public static final int app_name=0x7f0d0003;
+        public static final int card_empty_cardwithlist_text=0x7f0d0004;
+        public static final int card_progressbar_cardwithlist_text=0x7f0d0005;
+        public static final int circle_radius_multiplier=0x7f0d0006;
+        public static final int circle_radius_multiplier_24HourMode=0x7f0d0007;
+        public static final int common_android_wear_notification_needs_update_text=0x7f0d0008;
+        public static final int common_android_wear_update_text=0x7f0d0009;
+        public static final int common_android_wear_update_title=0x7f0d000a;
+        public static final int common_google_play_services_enable_button=0x7f0d000b;
+        public static final int common_google_play_services_enable_text=0x7f0d000c;
+        public static final int common_google_play_services_enable_title=0x7f0d000d;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0d000e;
+        public static final int common_google_play_services_install_button=0x7f0d000f;
+        public static final int common_google_play_services_install_text_phone=0x7f0d0010;
+        public static final int common_google_play_services_install_text_tablet=0x7f0d0011;
+        public static final int common_google_play_services_install_title=0x7f0d0012;
+        public static final int common_google_play_services_invalid_account_text=0x7f0d0013;
+        public static final int common_google_play_services_invalid_account_title=0x7f0d0014;
+        public static final int common_google_play_services_needs_enabling_title=0x7f0d0015;
+        public static final int common_google_play_services_network_error_text=0x7f0d0016;
+        public static final int common_google_play_services_network_error_title=0x7f0d0017;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f0d0018;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f0d0019;
+        public static final int common_google_play_services_notification_ticker=0x7f0d001a;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f0d001b;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f0d001c;
+        public static final int common_google_play_services_unknown_issue=0x7f0d001d;
+        public static final int common_google_play_services_unsupported_text=0x7f0d001e;
+        public static final int common_google_play_services_unsupported_title=0x7f0d001f;
+        public static final int common_google_play_services_update_button=0x7f0d0020;
+        public static final int common_google_play_services_update_text=0x7f0d0021;
+        public static final int common_google_play_services_update_title=0x7f0d0022;
+        public static final int common_open_on_phone=0x7f0d0023;
+        public static final int common_signin_button_text=0x7f0d0024;
+        public static final int common_signin_button_text_long=0x7f0d0025;
+        public static final int commono_google_play_services_api_unavailable_text=0x7f0d0026;
+        public static final int create_calendar_message=0x7f0d0027;
+        public static final int create_calendar_title=0x7f0d0028;
+        public static final int day_of_week_label_typeface=0x7f0d0029;
+        public static final int day_picker_description=0x7f0d002a;
+        public static final int day_prompt=0x7f0d002b;
+        public static final int decline=0x7f0d002c;
+        public static final int deleted_key=0x7f0d002d;
+        public static final int done_label=0x7f0d002e;
+        public static final int hello_blank_fragment=0x7f0d002f;
+        public static final int hello_world=0x7f0d0030;
+        public static final int hour_picker_description=0x7f0d0031;
+        public static final int item_is_selected=0x7f0d0032;
+        public static final int list_card_undo_title=0x7f0d0033;
+        public static final int minute_picker_description=0x7f0d0034;
+        public static final int month_prompt=0x7f0d0035;
+        public static final int numbers_radius_multiplier_inner=0x7f0d0036;
+        public static final int numbers_radius_multiplier_normal=0x7f0d0037;
+        public static final int numbers_radius_multiplier_outer=0x7f0d0038;
+        public static final int pull_to_refresh_pull_label=0x7f0d0039;
+        public static final int pull_to_refresh_refreshing_label=0x7f0d003a;
+        public static final int pull_to_refresh_release_label=0x7f0d003b;
+        public static final int radial_numbers_typeface=0x7f0d003c;
+        public static final int sans_serif=0x7f0d003d;
+        public static final int select_day=0x7f0d003e;
+        public static final int select_hours=0x7f0d003f;
+        public static final int select_minutes=0x7f0d0040;
+        public static final int select_year=0x7f0d0041;
+        public static final int selection_radius_multiplier=0x7f0d0042;
+        public static final int spb_default_speed=0x7f0d0043;
+        public static final int store_picture_message=0x7f0d0044;
+        public static final int store_picture_title=0x7f0d0045;
+        public static final int text_size_multiplier_inner=0x7f0d0046;
+        public static final int text_size_multiplier_normal=0x7f0d0047;
+        public static final int text_size_multiplier_outer=0x7f0d0048;
+        public static final int time_placeholder=0x7f0d0049;
+        public static final int time_separator=0x7f0d004a;
+        public static final int title_activity_base=0x7f0d004b;
+        public static final int title_activity_event_detail=0x7f0d004c;
+        public static final int title_activity_home=0x7f0d004d;
+        public static final int title_activity_test=0x7f0d004e;
+        public static final int wallet_buy_button_place_holder=0x7f0d004f;
+        public static final int year_picker_description=0x7f0d0050;
+        public static final int year_prompt=0x7f0d0051;
     }
     public static final class style {
         /** 
@@ -219,16 +1126,1337 @@ public final class R {
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0a0000;
-        public static final int AppTheme=0x7f0a0001;
-        public static final int MyActionBar=0x7f0a0002;
-        public static final int NewStyleThing=0x7f0a0003;
-        public static final int RobotoButtonStyle=0x7f0a0004;
-        public static final int RobotoTextViewStyle=0x7f0a0005;
-        public static final int ampm_label=0x7f0a0006;
-        public static final int day_of_week_label_condensed=0x7f0a0007;
-        public static final int done_button_light=0x7f0a0009;
-        public static final int time_label=0x7f0a0008;
-        public static final int time_label_thin=0x7f0a000a;
+        public static final int AppBaseTheme=0x7f0e0000;
+        public static final int AppTheme=0x7f0e0001;
+        public static final int MyActionBar=0x7f0e0002;
+        public static final int NewStyleThing=0x7f0e0003;
+        public static final int RobotoButtonStyle=0x7f0e0004;
+        public static final int RobotoTextViewStyle=0x7f0e0005;
+        public static final int SmoothProgressBar=0x7f0e0006;
+        public static final int Theme_IAPTheme=0x7f0e0007;
+        public static final int Theme_SmoothProgressBarDefaults=0x7f0e0008;
+        public static final int WalletFragmentDefaultButtonTextAppearance=0x7f0e0009;
+        public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f0e000a;
+        public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f0e000b;
+        public static final int WalletFragmentDefaultStyle=0x7f0e000c;
+        public static final int ampm_label=0x7f0e000d;
+        public static final int card=0x7f0e000e;
+        public static final int card_base_simple_title=0x7f0e000f;
+        public static final int card_content_outer_layout=0x7f0e0010;
+        public static final int card_expand_simple_title=0x7f0e0011;
+        public static final int card_header_button_base=0x7f0e0012;
+        public static final int card_header_button_base_expand=0x7f0e0013;
+        public static final int card_header_button_base_other=0x7f0e0014;
+        public static final int card_header_button_base_overflow=0x7f0e0015;
+        public static final int card_header_button_frame=0x7f0e0016;
+        public static final int card_header_compound_view=0x7f0e0017;
+        public static final int card_header_outer_layout=0x7f0e0018;
+        public static final int card_header_simple_title=0x7f0e0019;
+        public static final int card_main_contentExpand=0x7f0e001a;
+        public static final int card_main_layout=0x7f0e001b;
+        public static final int card_main_layout_kitkat=0x7f0e001c;
+        public static final int card_main_layout_foreground=0x7f0e001d;
+        public static final int card_main_layout_foreground_kitkat=0x7f0e001e;
+        public static final int card_shadow_image=0x7f0e001f;
+        public static final int card_shadow_outer_layout=0x7f0e0020;
+        public static final int card_thumbnail_compound_view=0x7f0e0021;
+        public static final int card_thumbnail_image=0x7f0e0022;
+        public static final int card_thumbnail_outer_layout=0x7f0e0023;
+        public static final int cardwithlist=0x7f0e0024;
+        public static final int day_of_week_label_condensed=0x7f0e0025;
+        public static final int done_button_light=0x7f0e002e;
+        public static final int grid_card=0x7f0e0026;
+        public static final int list_card=0x7f0e0027;
+        public static final int list_card_base=0x7f0e0028;
+        public static final int list_card_thumbnail=0x7f0e0029;
+        public static final int list_card_UndoBar=0x7f0e002a;
+        public static final int list_card_UndoBarButton=0x7f0e002b;
+        public static final int list_card_UndoBarMessage=0x7f0e002c;
+        public static final int time_label=0x7f0e002d;
+        public static final int time_label_thin=0x7f0e002f;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.itoxygen.socializev2:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.itoxygen.socializev2:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.itoxygen.socializev2:adUnitId}</code></td><td></td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adSizes
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#adSize}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#adSizes}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:adSizes
+        */
+        public static final int AdsAttrs_adSizes = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#adUnitId}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a CustomWalletTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.itoxygen.socializev2:windowTransitionStyle}</code></td><td></td></tr>
+           </table>
+           @see #CustomWalletTheme_windowTransitionStyle
+         */
+        public static final int[] CustomWalletTheme = {
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#windowTransitionStyle}
+          attribute's value can be found in the {@link #CustomWalletTheme} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:windowTransitionStyle
+        */
+        public static final int CustomWalletTheme_windowTransitionStyle = 0;
+        /** Attributes that can be used with a ForegroundLinearLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundInsidePadding android:foregroundInsidePadding}</code></td><td></td></tr>
+           </table>
+           @see #ForegroundLinearLayout_android_foreground
+           @see #ForegroundLinearLayout_android_foregroundGravity
+           @see #ForegroundLinearLayout_android_foregroundInsidePadding
+         */
+        public static final int[] ForegroundLinearLayout = {
+            0x01010109, 0x01010200, 0x0101042e
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foreground}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+          @attr name android:foreground
+        */
+        public static final int ForegroundLinearLayout_android_foreground = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+          @attr name android:foregroundGravity
+        */
+        public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foregroundInsidePadding}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+          @attr name android:foregroundInsidePadding
+        */
+        public static final int ForegroundLinearLayout_android_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.itoxygen.socializev2:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.itoxygen.socializev2:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.itoxygen.socializev2:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.itoxygen.socializev2:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.itoxygen.socializev2:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.itoxygen.socializev2:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.itoxygen.socializev2:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.itoxygen.socializev2:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.itoxygen.socializev2:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.itoxygen.socializev2:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.itoxygen.socializev2:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.itoxygen.socializev2:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.itoxygen.socializev2:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.itoxygen.socializev2:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.itoxygen.socializev2:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.itoxygen.socializev2:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.itoxygen.socializev2:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.itoxygen.socializev2:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.itoxygen.socializev2:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_liteMode
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiMapToolbar
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013,
+            0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#liteMode}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:liteMode
+        */
+        public static final int MapAttrs_liteMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiMapToolbar}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiMapToolbar
+        */
+        public static final int MapAttrs_uiMapToolbar = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 14;
+        /** Attributes that can be used with a PullToRefreshHeader.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderBackground com.itoxygen.socializev2:ptrHeaderBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderHeight com.itoxygen.socializev2:ptrHeaderHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderTitleTextAppearance com.itoxygen.socializev2:ptrHeaderTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarColor com.itoxygen.socializev2:ptrProgressBarColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarHeight com.itoxygen.socializev2:ptrProgressBarHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarStyle com.itoxygen.socializev2:ptrProgressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrPullText com.itoxygen.socializev2:ptrPullText}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrRefreshingText com.itoxygen.socializev2:ptrRefreshingText}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrReleaseText com.itoxygen.socializev2:ptrReleaseText}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefreshHeader_ptrSmoothProgressBarStyle com.itoxygen.socializev2:ptrSmoothProgressBarStyle}</code></td><td></td></tr>
+           </table>
+           @see #PullToRefreshHeader_ptrHeaderBackground
+           @see #PullToRefreshHeader_ptrHeaderHeight
+           @see #PullToRefreshHeader_ptrHeaderTitleTextAppearance
+           @see #PullToRefreshHeader_ptrProgressBarColor
+           @see #PullToRefreshHeader_ptrProgressBarHeight
+           @see #PullToRefreshHeader_ptrProgressBarStyle
+           @see #PullToRefreshHeader_ptrPullText
+           @see #PullToRefreshHeader_ptrRefreshingText
+           @see #PullToRefreshHeader_ptrReleaseText
+           @see #PullToRefreshHeader_ptrSmoothProgressBarStyle
+         */
+        public static final int[] PullToRefreshHeader = {
+            0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b,
+            0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f,
+            0x7f010020, 0x7f010021
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrHeaderBackground}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.itoxygen.socializev2:ptrHeaderBackground
+        */
+        public static final int PullToRefreshHeader_ptrHeaderBackground = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrHeaderHeight}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.itoxygen.socializev2:ptrHeaderHeight
+        */
+        public static final int PullToRefreshHeader_ptrHeaderHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrHeaderTitleTextAppearance}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:ptrHeaderTitleTextAppearance
+        */
+        public static final int PullToRefreshHeader_ptrHeaderTitleTextAppearance = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrProgressBarColor}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.itoxygen.socializev2:ptrProgressBarColor
+        */
+        public static final int PullToRefreshHeader_ptrProgressBarColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrProgressBarHeight}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.itoxygen.socializev2:ptrProgressBarHeight
+        */
+        public static final int PullToRefreshHeader_ptrProgressBarHeight = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrProgressBarStyle}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>inside</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:ptrProgressBarStyle
+        */
+        public static final int PullToRefreshHeader_ptrProgressBarStyle = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrPullText}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.itoxygen.socializev2:ptrPullText
+        */
+        public static final int PullToRefreshHeader_ptrPullText = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrRefreshingText}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.itoxygen.socializev2:ptrRefreshingText
+        */
+        public static final int PullToRefreshHeader_ptrRefreshingText = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrReleaseText}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.itoxygen.socializev2:ptrReleaseText
+        */
+        public static final int PullToRefreshHeader_ptrReleaseText = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrSmoothProgressBarStyle}
+          attribute's value can be found in the {@link #PullToRefreshHeader} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:ptrSmoothProgressBarStyle
+        */
+        public static final int PullToRefreshHeader_ptrSmoothProgressBarStyle = 9;
+        /** Attributes that can be used with a PullToRefreshView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PullToRefreshView_ptrViewDelegateClass com.itoxygen.socializev2:ptrViewDelegateClass}</code></td><td></td></tr>
+           </table>
+           @see #PullToRefreshView_ptrViewDelegateClass
+         */
+        public static final int[] PullToRefreshView = {
+            0x7f010022
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#ptrViewDelegateClass}
+          attribute's value can be found in the {@link #PullToRefreshView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.itoxygen.socializev2:ptrViewDelegateClass
+        */
+        public static final int PullToRefreshView_ptrViewDelegateClass = 0;
+        /** Attributes that can be used with a SmoothProgressBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spbStyle com.itoxygen.socializev2:spbStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_background com.itoxygen.socializev2:spb_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_color com.itoxygen.socializev2:spb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_colors com.itoxygen.socializev2:spb_colors}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_generate_background_with_colors com.itoxygen.socializev2:spb_generate_background_with_colors}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_interpolator com.itoxygen.socializev2:spb_interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_mirror_mode com.itoxygen.socializev2:spb_mirror_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_activated com.itoxygen.socializev2:spb_progressiveStart_activated}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_speed com.itoxygen.socializev2:spb_progressiveStart_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStop_speed com.itoxygen.socializev2:spb_progressiveStop_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_reversed com.itoxygen.socializev2:spb_reversed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_sections_count com.itoxygen.socializev2:spb_sections_count}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_speed com.itoxygen.socializev2:spb_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_separator_length com.itoxygen.socializev2:spb_stroke_separator_length}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_width com.itoxygen.socializev2:spb_stroke_width}</code></td><td></td></tr>
+           </table>
+           @see #SmoothProgressBar_spbStyle
+           @see #SmoothProgressBar_spb_background
+           @see #SmoothProgressBar_spb_color
+           @see #SmoothProgressBar_spb_colors
+           @see #SmoothProgressBar_spb_generate_background_with_colors
+           @see #SmoothProgressBar_spb_interpolator
+           @see #SmoothProgressBar_spb_mirror_mode
+           @see #SmoothProgressBar_spb_progressiveStart_activated
+           @see #SmoothProgressBar_spb_progressiveStart_speed
+           @see #SmoothProgressBar_spb_progressiveStop_speed
+           @see #SmoothProgressBar_spb_reversed
+           @see #SmoothProgressBar_spb_sections_count
+           @see #SmoothProgressBar_spb_speed
+           @see #SmoothProgressBar_spb_stroke_separator_length
+           @see #SmoothProgressBar_spb_stroke_width
+         */
+        public static final int[] SmoothProgressBar = {
+            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
+            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
+            0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
+            0x7f01002f, 0x7f010030, 0x7f010031
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spbStyle}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:spbStyle
+        */
+        public static final int SmoothProgressBar_spbStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_background}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:spb_background
+        */
+        public static final int SmoothProgressBar_spb_background = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_color}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_color
+        */
+        public static final int SmoothProgressBar_spb_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_colors}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:spb_colors
+        */
+        public static final int SmoothProgressBar_spb_colors = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_generate_background_with_colors}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_generate_background_with_colors
+        */
+        public static final int SmoothProgressBar_spb_generate_background_with_colors = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_interpolator}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
+<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
+<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
+<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:spb_interpolator
+        */
+        public static final int SmoothProgressBar_spb_interpolator = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_mirror_mode}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_mirror_mode
+        */
+        public static final int SmoothProgressBar_spb_mirror_mode = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_progressiveStart_activated}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_progressiveStart_activated
+        */
+        public static final int SmoothProgressBar_spb_progressiveStart_activated = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_progressiveStart_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_progressiveStart_speed
+        */
+        public static final int SmoothProgressBar_spb_progressiveStart_speed = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_progressiveStop_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_progressiveStop_speed
+        */
+        public static final int SmoothProgressBar_spb_progressiveStop_speed = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_reversed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_reversed
+        */
+        public static final int SmoothProgressBar_spb_reversed = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_sections_count}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_sections_count
+        */
+        public static final int SmoothProgressBar_spb_sections_count = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_speed
+        */
+        public static final int SmoothProgressBar_spb_speed = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_stroke_separator_length}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_stroke_separator_length
+        */
+        public static final int SmoothProgressBar_spb_stroke_separator_length = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#spb_stroke_width}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:spb_stroke_width
+        */
+        public static final int SmoothProgressBar_spb_stroke_width = 2;
+        /** Attributes that can be used with a WalletFragmentOptions.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.itoxygen.socializev2:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.itoxygen.socializev2:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.itoxygen.socializev2:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.itoxygen.socializev2:fragmentStyle}</code></td><td></td></tr>
+           </table>
+           @see #WalletFragmentOptions_appTheme
+           @see #WalletFragmentOptions_environment
+           @see #WalletFragmentOptions_fragmentMode
+           @see #WalletFragmentOptions_fragmentStyle
+         */
+        public static final int[] WalletFragmentOptions = {
+            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#appTheme}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:appTheme
+        */
+        public static final int WalletFragmentOptions_appTheme = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#environment}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>production</code></td><td>1</td><td></td></tr>
+<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
+<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:environment
+        */
+        public static final int WalletFragmentOptions_environment = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#fragmentMode}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
+<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:fragmentMode
+        */
+        public static final int WalletFragmentOptions_fragmentMode = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#fragmentStyle}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:fragmentStyle
+        */
+        public static final int WalletFragmentOptions_fragmentStyle = 2;
+        /** Attributes that can be used with a WalletFragmentStyle.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.itoxygen.socializev2:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.itoxygen.socializev2:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.itoxygen.socializev2:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.itoxygen.socializev2:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.itoxygen.socializev2:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.itoxygen.socializev2:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.itoxygen.socializev2:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.itoxygen.socializev2:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.itoxygen.socializev2:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.itoxygen.socializev2:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.itoxygen.socializev2:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           </table>
+           @see #WalletFragmentStyle_buyButtonAppearance
+           @see #WalletFragmentStyle_buyButtonHeight
+           @see #WalletFragmentStyle_buyButtonText
+           @see #WalletFragmentStyle_buyButtonWidth
+           @see #WalletFragmentStyle_maskedWalletDetailsBackground
+           @see #WalletFragmentStyle_maskedWalletDetailsButtonBackground
+           @see #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+           @see #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+           @see #WalletFragmentStyle_maskedWalletDetailsLogoImageType
+           @see #WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+           @see #WalletFragmentStyle_maskedWalletDetailsTextAppearance
+         */
+        public static final int[] WalletFragmentStyle = {
+            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
+            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
+            0x7f01003e, 0x7f01003f, 0x7f010040
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#buyButtonAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:buyButtonAppearance
+        */
+        public static final int WalletFragmentStyle_buyButtonAppearance = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#buyButtonHeight}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:buyButtonHeight
+        */
+        public static final int WalletFragmentStyle_buyButtonHeight = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#buyButtonText}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
+<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
+<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
+<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:buyButtonText
+        */
+        public static final int WalletFragmentStyle_buyButtonText = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#buyButtonWidth}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:buyButtonWidth
+        */
+        public static final int WalletFragmentStyle_buyButtonWidth = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsBackground
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsButtonBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsButtonBackground
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsButtonTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsButtonTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsHeaderTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsLogoImageType}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsLogoImageType
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsLogoTextColor}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsLogoTextColor
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#maskedWalletDetailsTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:maskedWalletDetailsTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
+        /** Attributes that can be used with a card_listItem.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #card_listItem_card_list_item_dividerHeight com.itoxygen.socializev2:card_list_item_dividerHeight}</code></td><td></td></tr>
+           </table>
+           @see #card_listItem_card_list_item_dividerHeight
+         */
+        public static final int[] card_listItem = {
+            0x7f010041
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#card_list_item_dividerHeight}
+          attribute's value can be found in the {@link #card_listItem} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.itoxygen.socializev2:card_list_item_dividerHeight
+        */
+        public static final int card_listItem_card_list_item_dividerHeight = 0;
+        /** Attributes that can be used with a card_options.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #card_options_card_header_layout_resourceID com.itoxygen.socializev2:card_header_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_layout_resourceID com.itoxygen.socializev2:card_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_shadow_layout_resourceID com.itoxygen.socializev2:card_shadow_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_card_thumbnail_layout_resourceID com.itoxygen.socializev2:card_thumbnail_layout_resourceID}</code></td><td></td></tr>
+           <tr><td><code>{@link #card_options_list_card_layout_resourceID com.itoxygen.socializev2:list_card_layout_resourceID}</code></td><td></td></tr>
+           </table>
+           @see #card_options_card_header_layout_resourceID
+           @see #card_options_card_layout_resourceID
+           @see #card_options_card_shadow_layout_resourceID
+           @see #card_options_card_thumbnail_layout_resourceID
+           @see #card_options_list_card_layout_resourceID
+         */
+        public static final int[] card_options = {
+            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
+            0x7f010046
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#card_header_layout_resourceID}
+          attribute's value can be found in the {@link #card_options} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:card_header_layout_resourceID
+        */
+        public static final int card_options_card_header_layout_resourceID = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#card_layout_resourceID}
+          attribute's value can be found in the {@link #card_options} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:card_layout_resourceID
+        */
+        public static final int card_options_card_layout_resourceID = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#card_shadow_layout_resourceID}
+          attribute's value can be found in the {@link #card_options} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:card_shadow_layout_resourceID
+        */
+        public static final int card_options_card_shadow_layout_resourceID = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#card_thumbnail_layout_resourceID}
+          attribute's value can be found in the {@link #card_options} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:card_thumbnail_layout_resourceID
+        */
+        public static final int card_options_card_thumbnail_layout_resourceID = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.itoxygen.socializev2.R.attr#list_card_layout_resourceID}
+          attribute's value can be found in the {@link #card_options} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.itoxygen.socializev2:list_card_layout_resourceID
+        */
+        public static final int card_options_list_card_layout_resourceID = 4;
+    };
 }

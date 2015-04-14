@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventCardBruh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+
+    <TextView
+        android:id="@+id/eventCardTitle"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="Coffee at Starbucks" />
+
+    <ImageView
+        android:id="@+id/acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dp"
+        android:paddingTop="7dp"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        android:src="@drawable/ic_action_accept" />
+
+    <ImageView
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        android:paddingRight="5dp"
+        android:layout_toLeftOf="@+id/acceptButton"
+        android:paddingTop="7dp"
+        android:src="@drawable/ic_action_cancel" />
+
+    <TextView
+        android:id="@+id/eventCardTime"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventCardTitle"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="10:00 AM"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/eventCardLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventCardTime"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:text="Starbucks" />
+
+    <TextView
+        android:id="@+id/eventCardAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventCardLocation"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="12dp"
+        android:text="1114 Coliseum Boulevard"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/eventCardDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/eventCardAddress"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingRight="10dp"
+        android:text="Today"
+        android:textColor="#534CE6" />
+
+</RelativeLayout><!-- From: file:/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/src/main/res/layout/event_card.xml -->

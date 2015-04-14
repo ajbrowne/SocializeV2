@@ -1,150 +1,170 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF"
-    tools:context="com.itoxygen.socializev2.app.Fragments.EventFragment">
-
-    <TextView
-        android:id="@+id/event_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:fontFamily=""
-        android:text="Create Event"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#1abc9c"
-        android:textSize="45sp"/>
-
-    <EditText
-        android:id="@+id/eventName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/event_title"
-        android:layout_margin="20dp"
-        android:background="@drawable/rounded_input2"
-        android:fontFamily="sans-serif-light"
-        android:hint="Event Name"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="#000"
-        android:textCursorDrawable="@null" />
+    tools:context="com.itoxygen.socializev2.app.Fragments.EventFragment"
+    android:background="#FFF">
 
     <RelativeLayout
-        android:id="@+id/pickThingsLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/eventName"
-        android:layout_margin="20dp"
-        android:background="@drawable/rounded_input2">
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        >
 
-        <LinearLayout
-            android:id="@+id/dateLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/dateButton"
+        <TextView
+            android:id="@+id/event_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily=""
+            android:text="Create Meetup"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1abc9c"
+            android:textSize="45sp"/>
+
+        <EditText
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/event_title"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="sans-serif-light"
+            android:hint="Event Name"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/eventLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventName"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Event Location"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/eventAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventLocation"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="sans-serif-light"
+            android:hint="Event Address"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textCursorDrawable="@null" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/pickThingsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventAddress"
             android:layout_margin="20dp"
+            android:background="@drawable/rounded_input2">
+
+            <LinearLayout
+                android:id="@+id/dateLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/dateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/custom_butto"
+                    android:fontFamily="sans-serif-light"
+                    android:minWidth="120dp"
+                    android:text="Select Date"
+                    android:textColor="#FFF" />
+
+                <TextView
+                    android:id="@+id/eventDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight=".5"
+                    android:textColor="#1abc9c"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/timeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateLayout">
+
+                <Button
+                    android:id="@+id/timeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/custom_butto"
+                    android:fontFamily="sans-serif-light"
+                    android:minWidth="120dp"
+                    android:text="Select Time"
+                    android:textColor="#FFF" />
+
+                <TextView
+                    android:id="@+id/eventTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight=".5"
+                    android:textColor="#1abc9c"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/addFriends"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pickThingsLayout"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Click here to invite friends"
+            android:textColor="#1abc9c" />
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_weight=".5"
+            android:layout_below="@id/addFriends"
             android:background="@drawable/custom_butto"
             android:fontFamily="sans-serif-light"
             android:minWidth="120dp"
-            android:text="Select Date"
+            android:layout_marginBottom="10dp"
+            android:text="Submit"
             android:textColor="#FFF" />
 
-        <TextView
-            android:id="@+id/eventDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="15dp"
-            android:layout_weight=".5"
-            android:textColor="#1abc9c"
-            android:textSize="20sp"/>
+    </RelativeLayout>
 
-    </LinearLayout>
+    </ScrollView>
 
-    <LinearLayout
-        android:id="@+id/timeLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/dateLayout">
 
-        <Button
-            android:id="@+id/timeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:layout_weight=".5"
-            android:background="@drawable/custom_butto"
-            android:fontFamily="sans-serif-light"
-            android:minWidth="120dp"
-            android:text="Select Time"
-            android:textColor="#FFF" />
-
-        <TextView
-            android:id="@+id/eventTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="15dp"
-            android:layout_weight=".5"
-            android:textColor="#1abc9c"
-            android:textSize="20sp"/>
-
-    </LinearLayout>
-
- </RelativeLayout>
-
-    <EditText
-        android:id="@+id/inviteeOne"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/pickThingsLayout"
-        android:background="@drawable/rounded_input2"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginTop="15dp"
-        android:hint="Invitee Name"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="#000"
-        android:textCursorDrawable="@null" />
-
-    <EditText
-        android:id="@+id/inviteeTwo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/inviteeOne"
-        android:background="@drawable/rounded_input2"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:hint="Invitee Name"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:textColor="#000"
-        android:textCursorDrawable="@null" />
-
-    <Button
-        android:id="@+id/createButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_weight=".5"
-        android:layout_below="@id/inviteeTwo"
-        android:background="@drawable/custom_butto"
-        android:fontFamily="sans-serif-light"
-        android:minWidth="120dp"
-        android:text="Submit"
-        android:textColor="#FFF" />
-
-</RelativeLayout>

@@ -11,6 +11,16 @@
     <string name="day_prompt">Day</string>
     <string name="year_prompt">Year</string>
 
+    <string-array name="friends">
+        <item>ajbrowne</item>
+        <item>pjmiddle</item>
+        <item>brmahar</item>
+        <item>tlinman</item>
+        <item>blingall</item>
+        <item>happypanda</item>
+        <item>test</item>
+    </string-array>
+
     <string-array name="months">
         <item>January</item>
         <item>February</item>
@@ -25,7 +35,6 @@
         <item>November</item>
         <item>December</item>
     </string-array>
-
     <string-array name="days">
         <item>1</item>
         <item>2</item>
@@ -59,10 +68,12 @@
         <item>30</item>
         <item>31</item>
     </string-array>
-
     <string-array name="years">
         <item>2014</item>
         <item>2015</item>
     </string-array>
+
+    <string name="title_activity_event_detail">EventDetailActivity</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>

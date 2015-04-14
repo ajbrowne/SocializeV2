@@ -2,18 +2,74 @@
 <items version="2" >
 
     <item
-        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/libs/ParseFacebookUtilsV4-1.8.4.jar"
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="940180fbbe746fe02145b7550e95b9f4bba0f2f5">
-        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.8.4-0c8466a19e08ac1c66c63d019b25b3c1f2a3e491.jar" />
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-15d472e09fc67136a9ad9e82255b49342eb17963.jar" />
     </item>
     <item
-        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/libs/ParseFacebookUtilsV3-1.8.4.jar"
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.7.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="ab197a39b663f39408640971255fdc676854938c">
-        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV3-1.8.4-eb336a4b7519b0bcf7bd4984bb5447092a888abd.jar" />
+        sha1="0dff9b8997395e074b81171c49ff15fa8e72359d">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-5eaa4a6668c2e332812a3b85ec5ac5e59bfedc59.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-0ca80ff0d6ef3ca051c05a13fa82441a0de58ca0.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-4fa3f8ca2256513724e24896f5453e29aa28cd77.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-a9f93a3b0b2186d35f9399db21724f8b4dbccb75.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-911e0af5e1198aaebb17d7a1fa5b7d9a40f7423f.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-fbf25fce72cd0c4e8e197e68ef76a21ab397d951.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-821d978f608fe5cd9ca63c8dbd8652a7921ec57b.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/library-2.4.0-d26a18c9da251828a4c91c95aa939f1cb0dc902d.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-cdf8572fc1ac68588a0ca9c416c28d0ad4d70994.jar" />
     </item>
     <item
         jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/libs/ParseCrashReporting-1.8.4.jar"
@@ -23,11 +79,60 @@
         <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.4-c8d1a227a1ea0015f70224a49e0e942f2cf4a20d.jar" />
     </item>
     <item
-        jar="/Users/Dazztrazak/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b6cb046a0c6e2bdc935e20f48222c293a94e5a5f.jar" />
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-4f39a5ef403982bf61aa5c68e53b5f6f3c412197.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-39be79657a4ca1a20393d91d50ee11120f815dcf.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-7f296ec096e0469165931636cb6de934d425c68c.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-b8c79b22778fd0647cd72e0228eb37c200ff79a9.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.9/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="06ca4ea902f14efb76284d918edb085df33cc365">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-518368b0a8df921c7998cb2e7067c5a584fe4323.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-176152132ae6e6a0a3025d9e06da89854d029b56.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-b8e9296e1b3eb2a9859e8f46a402ff8d0004c749.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-2ae3af826c519542df1f9b1c281d05939c719322.jar" />
     </item>
     <item
         jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/libs/bolts-android-1.1.4.jar"
@@ -37,11 +142,18 @@
         <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-c67174e7af2aff6970dfe56ab23ee9925606793b.jar" />
     </item>
     <item
-        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/classes.jar"
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="2fc859b7abb78d29169f6a582b45cbe1f3f1a4cc">
-        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-f38aabe4ca5bdc093288513f521ee0c5bd8de5fc.jar" />
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-3bffa0fdcf032a0fe5385ee7dc3f986916d8da95.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-1631e66246409fcb7250a000d28bd5bff72cb430.jar" />
     </item>
     <item
         jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/classes.jar"
@@ -51,6 +163,13 @@
         <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-85dda646d647c4b4b514dd6f8b7ff447ca4caaa8.jar" />
     </item>
     <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-7122a52d25d39d7b03208a51be08b1746fa61b8b.jar" />
+    </item>
+    <item
         jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/libs/Parse-1.8.4.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -58,11 +177,53 @@
         <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/Parse-1.8.4-88f0df6cc7287b84a857a14b1ecfe7cf75991e5c.jar" />
     </item>
     <item
-        jar="/Users/Dazztrazak/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/library-2.4.0-d26a18c9da251828a4c91c95aa939f1cb0dc902d.jar" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-5bb5d8cc7cf4770b4b7984082381b475d5620d52.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-1565ac66a2b18f33785b760efd9835dfdb1f9d2e.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-d695ba015c6193d035ba37b87238dfdc43b25809.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library/0.4.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6ca319f998430aa20c4dde97ba6df213d6cf3dd0">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-6a863ca2ea7ef4f2aedaebe5388eb8c118d4d199.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-7cd4ebd49577c1b745d7bc14e8b1320f4abb2115.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2fc859b7abb78d29169f6a582b45cbe1f3f1a4cc">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/classes-f38aabe4ca5bdc093288513f521ee0c5bd8de5fc.jar" />
+    </item>
+    <item
+        jar="/Users/Dazztrazak/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/Dazztrazak/Documents/Socialize/SocializeV2/app/build/intermediates/pre-dexed/debug/picasso-2.3.2-72613f3ceaace5d998b7034bc84f3ad3c825d76c.jar" />
     </item>
 
 </items>

@@ -1,12 +1,18 @@
 package com.itoxygen.socializev2.app.Fragments;
 
-
-
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.location.Address;
+import android.location.Geocoder;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -21,12 +27,21 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.fourmob.datetimepicker.date.DatePickerDialog;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.itoxygen.socializev2.app.Activities.EventDetailActivity;
+import com.itoxygen.socializev2.app.Activities.HomeActivity;
 import com.itoxygen.socializev2.app.R;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
 import com.sleepbot.datetimepicker.time.RadialPickerLayout;
 import com.sleepbot.datetimepicker.time.TimePickerDialog;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -40,27 +55,33 @@ public class EventFragment extends Fragment implements DatePickerDialog.OnDateSe
     private View eventView;
     private TextView title;
     private EditText eventName;
-    private EditText inviteeOne;
-    private EditText inviteeTwo;
+    private TextView addFriends;
+    private EditText location;
+    private EditText address;
     private Button submit;
     private String timeString;
     private String dateString;
     private Map<String,String> params;
+    private List<String> friends = new ArrayList<String>();
+    private String loc;
+    Double latitude;
+    Double longitude;
 
     public EventFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         eventView = inflater.inflate(R.layout.fragment_event, container, false);
+        addFriends = (TextView) eventView.findViewById(R.id.addFriends);
         title = (TextView) eventView.findViewById(R.id.event_title);
         submit = (Button) eventView.findViewById(R.id.createButton);
         params = new HashMap<String, String>();
         Typeface typeFace = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Pacifico.ttf");
+        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
         title.setTypeface(typeFace);
 
         final Calendar calendar = Calendar.getInstance();
@@ -109,13 +130,23 @@ public class EventFragment extends Fragment implements DatePickerDialog.OnDateSe
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                inviteeOne = (EditText) eventView.findViewById(R.id.inviteeOne);
-                inviteeTwo = (EditText) eventView.findViewById(R.id.inviteeTwo);
                 eventName = (EditText) eventView.findViewById(R.id.eventName);
+                location = (EditText) eventView.findViewById(R.id.eventLocation);
+                address = (EditText) eventView.findViewById(R.id.eventAddress);
                 String name = eventName.getText().toString();
-                String invite = inviteeOne.getText().toString();
-                String invitee = inviteeTwo.getText().toString();
-                createEvent(name, invite, invitee);
+                friends = ((HomeActivity) getActivity()).getFriends();
+                createEvent(name);
+            }
+        });
+
+        addFriends.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getFragmentManager();
+                FriendFragment fragment = new FriendFragment();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.newEventContainer, fragment, "addFriend").addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -143,35 +174,61 @@ public class EventFragment extends Fragment implements DatePickerDialog.OnDateSe
         time.setText(hour + ":" + min);
     }
 
-    public void createEvent(final String name, final String invite, final String invitee){
-        RequestQueue queue = Volley.newRequestQueue(getActivity());
-        StringRequest sr = new StringRequest(Request.Method.POST,"http://141.219.214.187:8080/api/events", new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                getActivity().onBackPressed();
+    public void createEvent(final String name) {
+
+        ParseObject eventObj = new ParseObject("meetup");
+        eventObj.put("name", name);
+        eventObj.put("location", location.getText().toString());
+        eventObj.put("date", dateString);
+        eventObj.put("time", timeString);
+        eventObj.put("address", address.getText().toString());
+
+        List<String> guests = new ArrayList<String>();
+        guests.add(ParseUser.getCurrentUser().getUsername());
+        eventObj.put("guests", guests);
+        eventObj.put("invitees", friends);
+        eventObj.saveInBackground();
+
+        Geocoder geocode = new Geocoder(getActivity());
+        String addr = address.getText().toString();
+        geocodeAddress(addr, geocode);
+        Intent intent = new Intent(getActivity(), EventDetailActivity.class);
+        intent.putExtra("name", name);
+        intent.putExtra("date", dateString);
+        intent.putExtra("time", timeString);
+        intent.putExtra("invitees", friends.toString());
+        intent.putExtra("address", address.getText().toString());
+        intent.putExtra("location", location.getText().toString());
+        intent.putExtra("lat", latitude);
+        intent.putExtra("long", longitude);
+        startActivity(intent);
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        for(int i = 0; i < fm.getBackStackEntryCount(); ++i) {
+            fm.popBackStack();
+        }
+    }
+
+    public void geocodeAddress(String addressStr, Geocoder gc) {
+        Address address = null;
+        List<Address> addressList = null;
+        try {
+            if (!TextUtils.isEmpty(addressStr)) {
+                addressList = gc.getFromLocationName(addressStr, 5);
             }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                System.out.println(error.toString());
-            }
-        }){
-            @Override
-            protected Map<String,String> getParams(){
-                params.put("name", "lol");
-                params.put("invitees", invite);
-                params.put("time", timeString);
-                params.put("date", dateString);
-                return params;
-            }
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String,String> params = new HashMap<String, String>();
-                params.put("Content-Type","application/x-www-form-urlencoded");
-                return params;
-            }
-        };
-        queue.add(sr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (null != addressList && addressList.size() > 0) {
+            address = addressList.get(0);
+        }
+
+        if (null != address && address.hasLatitude()
+                && address.hasLongitude()) {
+
+            latitude = address.getLatitude();
+            longitude = address.getLongitude();
+        }
+
     }
 
 }

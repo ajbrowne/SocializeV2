@@ -8,11 +8,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.itoxygen.socializev2.app.Fragments.EventFragment;
+import com.itoxygen.socializev2.app.Fragments.HomeFragment;
 import com.itoxygen.socializev2.app.R;
 import com.parse.ParseInstallation;
 import com.parse.ParseUser;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomeActivity extends BaseActivity {
+
+    private String event;
+    private String date;
+    private String time;
+    private String invitees;
+    private List<String> friends = new ArrayList<String>();
+    public ParseUser user = ParseUser.getCurrentUser();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +47,11 @@ public class HomeActivity extends BaseActivity {
                     }
                 });
 
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        HomeFragment fragment = new HomeFragment();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.newEventContainer, fragment, "events");
+        fragmentTransaction.commit();
         setContentView(R.layout.activity_home);
     }
 
@@ -76,5 +92,66 @@ public class HomeActivity extends BaseActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void refresh(){
+        HomeFragment fragment = (HomeFragment) getSupportFragmentManager().findFragmentByTag("events");
+        fragment.onRefreshStarted(fragment.getHomeView());
+    }
+
+    public void refreshAccept(String eventId){
+        HomeFragment fragment = (HomeFragment) getSupportFragmentManager().findFragmentByTag("events");
+        fragment.notifyChange(eventId);
+    }
+
+    @Override
+    public void onBackPressed() {
+        getFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        int count = getFragmentManager().getBackStackEntryCount();
+        super.onBackPressed();
+    }
+
+    public String getEvent() {
+        return event;
+    }
+
+    public void setEvent(String event) {
+        this.event = event;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getInvitees() {
+        return invitees;
+    }
+
+    public void setInvitees(String invitees) {
+        this.invitees = invitees;
+    }
+
+    public ParseUser getUser() {
+        return user;
+    }
+
+    public List<String> getFriends() {
+        return friends;
+    }
+
+    public void setFriends(List<String> friends) {
+        this.friends = friends;
     }
 }

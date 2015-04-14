@@ -1,6 +1,5 @@
 package com.itoxygen.socializev2.app.Activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -42,6 +41,9 @@ public class BaseActivity extends FragmentActivity {
             ParseUser.logOut();
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
+        }
+        if (id == android.R.id.home){
+            onBackPressed();
         }
         return super.onOptionsItemSelected(item);
     }
